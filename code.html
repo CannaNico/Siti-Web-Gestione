@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="tailwind-config.js"></script>
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body class="bg-background text-on-surface font-body-md">
+    <!-- TopNavBar -->
+    <header class="fixed top-0 w-full z-50 bg-[#001F73]/95 backdrop-blur-md shadow-md">
+        <nav class="max-w-container-max mx-auto px-margin-desktop flex justify-between items-center h-20">
+            <div class="font-display-lg text-headline-md text-on-primary tracking-tight">Pezzoli Elettrica</div>
+            <div class="hidden md:flex items-center gap-8">
+                <a class="font-button-text text-secondary-fixed border-b-2 border-secondary-fixed pb-1"
+                    href="#">Home</a>
+                <a class="font-button-text text-on-primary/80 hover:text-on-primary transition-colors"
+                    href="#chi-siamo">Chi Siamo</a>
+                <a class="font-button-text text-on-primary/80 hover:text-on-primary transition-colors"
+                    href="#servizi">Servizi</a>
+                <a class="font-button-text text-on-primary/80 hover:text-on-primary transition-colors"
+                    href="#gallery">Gallery</a>
+                <a class="font-button-text text-on-primary/80 hover:text-on-primary transition-colors"
+                    href="#contatti">Contatti</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <button
+                    class="bg-brand-yellow px-6 py-3 rounded-lg font-button-text text-primary hover:scale-95 transition-transform">Contattaci</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-screen flex items-center pt-20">
+            <div class="absolute inset-0 z-0">
+                <img class="w-full h-full object-cover" data-alt="Professional electrician at work"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB50WUFgTvuKA7I1-9LeFafDNh1s_KGflTYCi1AXKuElx9Mh8vx_Peafw0DU3j9ogTvkX_dZrBSdk6_jDRcZKM7aNJk3rdks1HPZnulv1Gga_ut6AIV7Z1gHWKo26jBY-w89QMpDlC0iPnxcYAIqQzNc2dv6ydI7MfhhACHnrae8JYcDjOzFgAn16Eb0GsDSdEY4Yj8RKISrKVOsTsnN8kvzANwyeeJHWRlmK6JiuNXPA1NHQdxZxWRD48vnPa7QjghBENadoZ59xR5" />
+                <div class="absolute inset-0 bg-[#001F73]/60"></div>
+            </div>
+            <div class="relative z-10 max-w-container-max mx-auto px-margin-desktop w-full">
+                <div class="max-w-2xl">
+                    <h1 class="font-display-lg text-display-lg text-on-primary mb-stack-md leading-tight">
+                        Impianti Elettrici Professionali per Casa e Azienda
+                    </h1>
+                    <p class="font-body-lg text-body-lg text-on-primary/90 mb-stack-lg">
+                        Installazioni certificate, manutenzioni specializzate e pronto intervento rapido 24/7. La tua
+                        sicurezza elettrica è la nostra missione.
+                    </p>
+                    <div class="flex flex-wrap gap-gutter">
+                        <a class="bg-brand-yellow text-primary px-8 py-4 rounded-lg font-button-text flex items-center gap-2 hover:scale-105 transition-transform shadow-lg"
+                            href="https://wa.me/393355885735">
+                            <span class="material-symbols-outlined">chat</span>
+                            Contattaci su WhatsApp
+                        </a>
+                        <a class="border-2 border-on-primary text-on-primary px-8 py-4 rounded-lg font-button-text hover:bg-on-primary hover:text-primary transition-all"
+                            href="#servizi">
+                            Scopri i Servizi
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Chi Siamo Section -->
+        <section class="py-section-gap bg-background" id="chi-siamo">
+            <div class="max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-section-gap items-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-secondary-container rounded-lg -z-10"></div>
+                    <img class="rounded-xl shadow-xl w-full" data-alt="Electrician team"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdY1Ao3VFgg-xXjM7kIVPZEXjCDmLgzLphdj1U50wcj0FeI4icj5C40WkRpKoFoTHcyy3OK9-gRP50zGLTuq-luhMGj_ntTudlaqwr9TYylsvv7qM26P8DABRhP2Cwln9Qcedmp7plzMu19c2Mnnw1k_NihPELVlaNBFmDMtt_edMRaPYwFsmI_fd5TxZLjiSyoX8JHSRPb8oDBOeakED11TCsnnGSnpzmnqOKZuLWFr2svJRUAl-WjUNowV-JnBu-woDWxEZSrJTP" />
+                </div>
+                <div>
+                    <span
+                        class="font-label-bold text-label-bold text-secondary uppercase tracking-widest block mb-stack-sm">Esperienza
+                        e Qualità</span>
+                    <h2 class="font-display-lg text-headline-md text-primary mb-stack-md">Oltre 20 anni di competenza
+                        tecnica al tuo servizio</h2>
+                    <p class="font-body-md text-on-surface-variant mb-stack-lg leading-relaxed">
+                        VoltExpert nasce dalla passione per l'innovazione energetica. Siamo leader nelle installazioni
+                        elettriche civili e industriali, garantendo standard di sicurezza eccellenti e soluzioni
+                        all'avanguardia per il risparmio energetico.
+                    </p>
+                    <div class="grid grid-cols-2 gap-gutter mb-stack-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-secondary" data-weight="fill">verified</span>
+                            <span class="font-label-bold text-label-bold">Certificazioni DM 37/08</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-secondary" data-weight="fill">thumb_up</span>
+                            <span class="font-label-bold text-label-bold">Clienti Soddisfatti</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-secondary" data-weight="fill">eco</span>
+                            <span class="font-label-bold text-label-bold">Eco-Sostenibilità</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Servizi Section -->
+        <section class="py-section-gap bg-surface-container-low" id="servizi">
+            <div class="max-w-container-max mx-auto px-margin-desktop">
+                <div class="text-center mb-section-gap">
+                    <h2 class="font-display-lg text-headline-md text-primary">Soluzioni Energetiche Complete</h2>
+                    <div class="w-20 h-1 bg-secondary mx-auto mt-stack-sm"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+                    <!-- Service Cards -->
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">home</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Impianti Civili</h3>
+                        <p class="font-body-md text-on-surface-variant">Progettazione e realizzazione di impianti per
+                            abitazioni moderne.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">factory</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Impianti Industriali</h3>
+                        <p class="font-body-md text-on-surface-variant">Sistemi ad alta potenza e manutenzione per
+                            aziende e capannoni.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">videocam</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Videosorveglianza</h3>
+                        <p class="font-body-md text-on-surface-variant">Sistemi di sicurezza e allarme integrati con
+                            gestione remota.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">home_iot_device</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Domotica</h3>
+                        <p class="font-body-md text-on-surface-variant">Controllo intelligente di luci, clima e
+                            automazioni domestiche.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">lightbulb</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Illuminazione LED</h3>
+                        <p class="font-body-md text-on-surface-variant">Relamping e design luminoso per il massimo
+                            risparmio energetico.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">solar_power</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Fotovoltaico</h3>
+                        <p class="font-body-md text-on-surface-variant">Installazione pannelli solari e sistemi di
+                            accumulo energia.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">build</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Manutenzione</h3>
+                        <p class="font-body-md text-on-surface-variant">Piani di manutenzione preventiva e riparazioni
+                            rapide.</p>
+                    </div>
+                    <div
+                        class="bg-surface p-stack-lg rounded-xl border border-secondary/10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
+                        <div
+                            class="w-12 h-12 bg-secondary-container/30 rounded-lg flex items-center justify-center text-secondary mb-stack-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                            <span class="material-symbols-outlined">build</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary mb-stack-sm text-lg">Quadri elettrici</h3>
+                        <p class="font-body-md text-on-surface-variant">Assemblaggio e cablaggio quadri elettrici.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section (Masonry) -->
+        <section class="py-section-gap bg-background" id="gallery">
+            <div class="max-w-container-max mx-auto px-margin-desktop">
+                <div class="text-center mb-section-gap">
+                    <h2 class="font-display-lg text-headline-md text-primary">I Nostri Progetti</h2>
+                    <p class="font-body-md text-on-surface-variant mt-stack-sm">Esempi recenti di realizzazioni e
+                        manutenzioni professionali.</p>
+                </div>
+                <div class="relative">
+                    <button id="gallery-prev" class="gallery-nav-btn left-2" aria-label="Slide precedente">
+                        <span class="material-symbols-outlined">chevron_left</span>
+                    </button>
+                    <button id="gallery-next" class="gallery-nav-btn right-2" aria-label="Prossima slide">
+                        <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                    <div id="gallery-container"
+                        class="flex gap-gutter overflow-x-auto pb-8 snap-x snap-mandatory no-scrollbar scroll-smooth">
+                        <!-- Project 1 -->
+                        <div
+                            class="flex-none w-[350px] md:w-[450px] snap-start group relative overflow-hidden rounded-xl bg-surface-container shadow-md h-[400px]">
+                            <img class="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-1 transition-all duration-700"
+                                data-alt="Industrial electrical cabinet" src="immagine1.jpeg" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-[#001F73]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-stack-md">
+                                <div class="text-on-primary">
+                                    <span
+                                        class="text-xs font-label-bold uppercase text-secondary-fixed">Industriale</span>
+                                    <p class="font-headline-sm text-sm">Centralina Alta Potenza</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                        <div
+                            class="flex-none w-[350px] md:w-[450px] snap-start group relative overflow-hidden rounded-xl bg-surface-container shadow-md h-[400px]">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
+                                data-alt="Smart home lighting" src="immagine2.jpg" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-[#001F73]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-stack-md">
+                                <div class="text-on-primary">
+                                    <span class="text-xs font-label-bold uppercase text-secondary-fixed">Domotica</span>
+                                    <p class="font-headline-sm text-sm">Illuminazione Intelligente Luxury</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div
+                            class="flex-none w-[350px] md:w-[450px] snap-start group relative overflow-hidden rounded-xl bg-surface-container shadow-md h-[400px]">
+                            <img class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
+                                data-alt="Solar panels" src="immagine3.jpeg" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-[#001F73]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-stack-md">
+                                <div class="text-on-primary">
+                                    <span class="text-xs font-label-bold uppercase text-secondary-fixed">Eco</span>
+                                    <p class="font-headline-sm text-sm">Impianto Fotovoltaico</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 4 -->
+                        <div
+                            class="flex-none w-[350px] md:w-[450px] snap-start group relative overflow-hidden rounded-xl bg-surface-container shadow-md h-[400px]">
+                            <img class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
+                                data-alt="Industrial electrical cabinet" src="immagine4.jpg" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-[#001F73]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-stack-md">
+                                <div class="text-on-primary">
+                                    <span
+                                        class="text-xs font-label-bold uppercase text-secondary-fixed">Industriale</span>
+                                    <p class="font-headline-sm text-sm">Centralina Alta Potenza</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 5 -->
+                        <div
+                            class="flex-none w-[350px] md:w-[450px] snap-start group relative overflow-hidden rounded-xl bg-surface-container shadow-md h-[400px]">
+                            <img class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
+                                data-alt="Industrial electrical cabinet" src="immagine5.jpg" />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-[#001F73]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-stack-md">
+                                <div class="text-on-primary">
+                                    <span
+                                        class="text-xs font-label-bold uppercase text-secondary-fixed">Industriale</span>
+                                    <p class="font-headline-sm text-sm">Centralina Alta Potenza</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Dove Siamo & Contatti Section -->
+        <section class="py-section-gap bg-background" id="contatti">
+            <div class="max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-section-gap">
+                <!-- Form -->
+                <div class="bg-surface-container-lowest p-stack-lg rounded-xl shadow-lg">
+                    <h2 class="font-display-lg text-headline-md text-primary mb-stack-lg">Richiedi un Preventivo</h2>
+                    <form class="space-y-stack-md">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+                            <div>
+                                <label class="block font-label-bold text-on-surface-variant mb-1">Nome</label>
+                                <input
+                                    class="w-full rounded-lg border-outline-variant focus:ring-2 focus:ring-secondary focus:border-secondary p-3"
+                                    type="text" />
+                            </div>
+                            <div>
+                                <label class="block font-label-bold text-on-surface-variant mb-1">Telefono</label>
+                                <input
+                                    class="w-full rounded-lg border-outline-variant focus:ring-2 focus:ring-secondary focus:border-secondary p-3"
+                                    type="tel" />
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block font-label-bold text-on-surface-variant mb-1">Email</label>
+                            <input
+                                class="w-full rounded-lg border-outline-variant focus:ring-2 focus:ring-secondary focus:border-secondary p-3"
+                                type="email" />
+                        </div>
+                        <div>
+                            <label class="block font-label-bold text-on-surface-variant mb-1">Messaggio</label>
+                            <textarea
+                                class="w-full rounded-lg border-outline-variant focus:ring-2 focus:ring-secondary focus:border-secondary p-3"
+                                rows="4"></textarea>
+                        </div>
+                        <button
+                            class="w-full bg-[#001F73] text-on-primary py-4 rounded-lg font-button-text hover:bg-secondary transition-colors"
+                            type="submit">Invia Richiesta</button>
+                    </form>
+                </div>
+                <!-- Info and Map -->
+                <div class="flex flex-col gap-gutter">
+                    <div class="bg-[#001F73] text-on-primary p-stack-lg rounded-xl">
+                        <h3 class="font-headline-sm mb-stack-md">Informazioni di Contatto</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <span class="material-symbols-outlined text-secondary-fixed">location_on</span>
+                                <p class="font-body-md">Via Innocenzo XI, 24024 Gandino (BG)</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <span class="material-symbols-outlined text-secondary-fixed">phone</span>
+                                <p class="font-body-md">+39 335 588 5735</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <span class="material-symbols-outlined text-secondary-fixed">mail</span>
+                                <p class="font-body-md">info@pezzolielettrica.it</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <span class="material-symbols-outlined text-secondary-fixed">schedule</span>
+                                <p class="font-body-md">Lun - Ven: 08:00 - 18:30 | Sab: 09:00 - 13:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-64 bg-surface-dim rounded-xl overflow-hidden relative border border-outline-variant">
+                        <div
+                            class="absolute inset-0 flex items-center justify-center text-on-surface-variant font-label-bold">
+                            <div class="text-center z-10">
+                                <span class="material-symbols-outlined text-4xl block mb-2">map</span>
+                                Mappa di Milano
+                            </div>
+                        </div>
+                        <img class="w-full h-full object-cover opacity-50" data-alt="Map of Milan"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZFny7yuv-UEQAkD87gCHhiODst_9bOJUAew5Tk8ozKy204ETLKpBYZslaerwIophKk_6m1-WlKVsp1eDNPRl30dRUxPopFsvUrGbMfu-jjPbYPAkO-7NiQAaOM5z5kBNme2gZJy8oyEHRQz-cyVAKm4OSXIlMrcmm8cEks9VW7bxbS0jEwsy1SGWkk0qBT5LB2UuNW4DX3Q8j5speaBpc3le9DugyEKnnsk1R2G3h1enOGZaGmgmdus5dP273BtuJ-a2NsO8L6XKl" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Floating WhatsApp Button -->
+    <a class="fixed bottom-margin-desktop right-margin-desktop bg-[#25D366] text-white p-4 rounded-full shadow-2xl z-40 hover:scale-110 transition-transform active:scale-95 group"
+        href="https://wa.me/393355885735">
+        <span class="material-symbols-outlined text-3xl block">chat</span>
+        <span
+            class="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-white text-on-surface px-4 py-2 rounded-lg text-sm font-label-bold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none">Serve
+            aiuto? Chat con noi</span>
+    </a>
+    <!-- Footer -->
+    <footer class="bg-[#001F73] text-on-primary w-full py-12">
+        <div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter">
+            <div class="col-span-1 md:col-span-1">
+                <div class="font-display-lg text-headline-md text-on-primary mb-stack-md">VoltExpert</div>
+                <p class="font-body-md text-on-primary/60">Soluzioni professionali per l'energia elettrica. Innovazione,
+                    sicurezza e rapidità al servizio del cliente.</p>
+            </div>
+            <div>
+                <h4 class="font-label-bold text-on-primary mb-stack-md uppercase">Link Rapidi</h4>
+                <ul class="space-y-2">
+                    <li><a class="text-on-primary/60 hover:text-on-primary transition-colors" href="#">Privacy
+                            Policy</a></li>
+                    <li><a class="text-on-primary/60 hover:text-on-primary transition-colors" href="#">Cookie Policy</a>
+                    </li>
+                    <li><a class="text-on-primary/60 hover:text-on-primary transition-colors" href="#">Termini e
+                            Condizioni</a></li>
+                    <li><a class="text-on-primary/60 hover:text-on-primary transition-colors" href="#">Lavora con
+                            Noi</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-label-bold text-on-primary mb-stack-md uppercase">I Nostri Servizi</h4>
+                <ul class="space-y-2">
+                    <li class="text-on-primary/60">Automazione</li>
+                    <li class="text-on-primary/60">Antifurto</li>
+                    <li class="text-on-primary/60">Climatizzazione</li>
+                    <li class="text-on-primary/60">Quadristica</li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-container-max mx-auto px-margin-desktop mt-12 pt-8 border-t border-on-primary/10 text-center md:text-left">
+            <p class="font-body-md text-on-primary/60">© 2026 Pezzoli Elettrica. Tutti i diritti riservati.
+                P.IVA 01234567890</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
