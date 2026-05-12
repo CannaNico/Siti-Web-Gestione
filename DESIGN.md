@@ -1,175 +1,164 @@
 ---
-name: High-Voltage Precision
+name: Active Heritage
 colors:
-  surface: '#fbf8ff'
-  surface-dim: '#dbd9e1'
-  surface-bright: '#fbf8ff'
+  surface: '#f9f9f9'
+  surface-dim: '#dadada'
+  surface-bright: '#f9f9f9'
   surface-container-lowest: '#ffffff'
-  surface-container-low: '#f4f2fa'
-  surface-container: '#efedf5'
-  surface-container-high: '#e9e7ef'
-  surface-container-highest: '#e3e1e9'
-  on-surface: '#1a1b21'
-  on-surface-variant: '#454651'
-  inverse-surface: '#2f3036'
-  inverse-on-surface: '#f2f0f7'
-  outline: '#757683'
-  outline-variant: '#c5c5d3'
-  surface-tint: '#4459ab'
-  primary: '#000e43'
+  surface-container-low: '#f3f3f3'
+  surface-container: '#eeeeee'
+  surface-container-high: '#e8e8e8'
+  surface-container-highest: '#e2e2e2'
+  on-surface: '#1b1b1b'
+  on-surface-variant: '#4c4546'
+  inverse-surface: '#303030'
+  inverse-on-surface: '#f1f1f1'
+  outline: '#7e7576'
+  outline-variant: '#cfc4c5'
+  surface-tint: '#5e5e5e'
+  primary: '#000000'
   on-primary: '#ffffff'
-  primary-container: '#001f73'
-  on-primary-container: '#778be1'
-  inverse-primary: '#b8c4ff'
-  secondary: '#425aa7'
+  primary-container: '#1b1b1b'
+  on-primary-container: '#848484'
+  inverse-primary: '#c6c6c6'
+  secondary: '#3b6751'
   on-secondary: '#ffffff'
-  secondary-container: '#93aafd'
-  on-secondary-container: '#223c88'
-  tertiary: '#001239'
+  secondary-container: '#bbeacf'
+  on-secondary-container: '#406b56'
+  tertiary: '#000000'
   on-tertiary: '#ffffff'
-  tertiary-container: '#0e2758'
-  on-tertiary-container: '#7a8fc7'
+  tertiary-container: '#00210b'
+  on-tertiary-container: '#11984b'
   error: '#ba1a1a'
   on-error: '#ffffff'
   error-container: '#ffdad6'
   on-error-container: '#93000a'
-  primary-fixed: '#dde1ff'
-  primary-fixed-dim: '#b8c4ff'
-  on-primary-fixed: '#001453'
-  on-primary-fixed-variant: '#2a4091'
-  secondary-fixed: '#dce1ff'
-  secondary-fixed-dim: '#b5c4ff'
-  on-secondary-fixed: '#00164e'
-  on-secondary-fixed-variant: '#29428d'
-  tertiary-fixed: '#dae2ff'
-  tertiary-fixed-dim: '#b1c5ff'
-  on-tertiary-fixed: '#001946'
-  on-tertiary-fixed-variant: '#304578'
-  background: '#fbf8ff'
-  on-background: '#1a1b21'
-  surface-variant: '#e3e1e9'
+  primary-fixed: '#e2e2e2'
+  primary-fixed-dim: '#c6c6c6'
+  on-primary-fixed: '#1b1b1b'
+  on-primary-fixed-variant: '#474747'
+  secondary-fixed: '#bdedd2'
+  secondary-fixed-dim: '#a2d1b7'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#234f3b'
+  tertiary-fixed: '#85fba1'
+  tertiary-fixed-dim: '#68dd88'
+  on-tertiary-fixed: '#00210b'
+  on-tertiary-fixed-variant: '#005225'
+  background: '#f9f9f9'
+  on-background: '#1b1b1b'
+  surface-variant: '#e2e2e2'
 typography:
-  display-lg:
-    fontFamily: Inter
+  headline-xl:
+    fontFamily: Montserrat
     fontSize: 48px
-    fontWeight: '700'
+    fontWeight: '800'
     lineHeight: 56px
     letterSpacing: -0.02em
-  display-lg-mobile:
-    fontFamily: Inter
-    fontSize: 36px
+  headline-lg:
+    fontFamily: Montserrat
+    fontSize: 32px
     fontWeight: '700'
-    lineHeight: 42px
-    letterSpacing: -0.02em
-  headline-md:
-    fontFamily: Inter
-    fontSize: 30px
-    fontWeight: '600'
-    lineHeight: 38px
+    lineHeight: 40px
     letterSpacing: -0.01em
-  headline-sm:
-    fontFamily: Inter
+  headline-lg-mobile:
+    fontFamily: Montserrat
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+  headline-md:
+    fontFamily: Montserrat
     fontSize: 24px
     fontWeight: '600'
     lineHeight: 32px
   body-lg:
-    fontFamily: Inter
+    fontFamily: Lexend
     fontSize: 18px
     fontWeight: '400'
     lineHeight: 28px
   body-md:
-    fontFamily: Inter
+    fontFamily: Lexend
     fontSize: 16px
     fontWeight: '400'
     lineHeight: 24px
-  label-bold:
-    fontFamily: Inter
-    fontSize: 14px
-    fontWeight: '600'
-    lineHeight: 20px
-    letterSpacing: 0.02em
-  label-sm:
-    fontFamily: Inter
+  label-caps:
+    fontFamily: Lexend
     fontSize: 12px
-    fontWeight: '500'
+    fontWeight: '600'
     lineHeight: 16px
+    letterSpacing: 0.1em
 rounded:
-  sm: 0.25rem
-  DEFAULT: 0.5rem
-  md: 0.75rem
-  lg: 1rem
-  xl: 1.5rem
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
   full: 9999px
 spacing:
-  unit: 8px
+  base: 8px
   container-max: 1280px
   gutter: 24px
-  margin-desktop: 64px
-  margin-mobile: 20px
-  section-gap: 80px
+  margin-mobile: 16px
+  margin-desktop: 48px
+  stack-sm: 12px
+  stack-md: 24px
+  stack-lg: 48px
 ---
 
 ## Brand & Style
 
-The design system is engineered to project a sense of technical mastery, safety, and modern innovation. It caters to property managers and premium homeowners who value reliability and high-tech electrical solutions.
+This design system embodies the intersection of athletic dynamism and cultural heritage. The brand personality is **Elite yet Inclusive**, blending the discipline of competitive sports with the warmth of a social association. 
 
-The visual style is **Corporate Modern with a Technical Edge**. It utilizes expansive whitespace and crisp alignment to evoke the precision of electrical engineering. The aesthetic leans heavily into a layered blue palette to establish trust, while the strategic use of high-visibility accents suggests action and energy. The UI is characterized by clean lines, purposeful movement, and a premium "pro-service" atmosphere that distinguishes it from traditional, local contractor aesthetics.
+The aesthetic style is **High-Contrast Minimalism** infused with **Celtic Geometry**. The interface relies on stark black-and-white foundations to project professionalism, while the Italian Tricolore and Celtic Green accents provide bursts of energy and regional identity. Visual elements should feel "linear and locked," utilizing precise border-work and geometric patterns inspired by the Triquetra to create a sense of continuity and tradition.
 
 ## Colors
 
-This design system prioritizes a "Wash of Azure" technique. While the deep Electric Blue anchors the brand in the header and footer for structural stability, the Azure and Light Azure tones dominate the main interface surfaces to create a more approachable, high-tech feel.
+The palette is rooted in a high-contrast monochrome base to ensure readability and a premium feel. 
 
-- **Electric Blue (#001F73):** Reserved for global navigation, footers, and primary headings to provide a "grounding" effect.
-- **Azure (#6F86D6):** The core brand driver for UI backgrounds, illustrations, and decorative borders.
-- **Light Azure (#AFC4FF):** Used for subtle backgrounds, hover states, and to differentiate content sections without using harsh greys.
-- **Bright Yellow (#F5C000):** Exclusively for CTA buttons and critical alerts, providing maximum contrast against the blue-heavy environment.
-- **Cloud White (#F5F5F5):** The canvas for all content, ensuring a crisp, surgical cleanliness.
+- **Dominant Tone:** Pure Black (#000000) is used for primary text and structural headers.
+- **Celtic Heritage:** Dark Celtic Green (#013220) serves as the primary brand anchor for deep backgrounds and formal elements.
+- **The Tricolore:** Used strictly for interactive accents and status indicators. Italian Green (#009246) and Red (#CE2B37) act as "action" colors, while the Off-White (#F1F2F1) provides a soft secondary background to reduce eye strain compared to pure white.
+- **Functional Use:** Use the Dark Celtic Green for high-importance "Social" sections and the Italian Green for "Sports/Active" sections to differentiate association activities.
 
 ## Typography
 
-The design system utilizes **Inter** for its neutral, systematic clarity. The typographic hierarchy is designed to be highly legible under varying light conditions (relevant for technicians and clients alike).
+The typography strategy prioritizes momentum and clarity. 
 
-Headlines use a bold weight with slightly tighter letter-spacing to create a "technical block" feel. Body text maintains a generous line height to ensure high readability against the Cloud White background. Semantic labeling (e.g., status badges, service categories) uses uppercase styling to mimic industrial labeling systems.
+**Montserrat** is utilized for headlines to provide a bold, urban, and geometric foundation. It should be set with tight letter-spacing in larger formats to evoke the strength of a sports brand. 
+
+**Lexend** is selected for body copy and UI labels. Originally designed to improve reading proficiency, its expanded character tracking and clear letterforms keep the "Active" theme consistent while ensuring the social aspect of the association remains accessible to all age groups. Use `label-caps` for small metadata or category tags to maintain a disciplined, "medallion-like" aesthetic.
 
 ## Layout & Spacing
 
-The layout philosophy follows a **Fixed Grid** approach for desktop to maintain a premium, editorial feel, while transitioning to a fluid model for mobile.
+The layout follows a **Fixed Grid** philosophy for desktop to maintain a "contained" feel, reminiscent of a framed medallion or badge. 
 
-- **Grid:** A 12-column grid is used for desktop. Components should align to these columns to maintain a sense of structural integrity.
-- **Rhythm:** A strict 8px spacing scale governs all margins and paddings. 
-- **Whitespace:** Large vertical gaps (80px+) between homepage sections are required to emphasize the premium nature of the service and prevent the "cluttered contractor" look.
-- **Mobile:** Margins shrink to 20px, and gutters to 16px. Multi-column cards stack vertically to prioritize thumb-friendly interaction.
+- **Grid:** Use a 12-column grid for desktop with 24px gutters.
+- **Rhythm:** An 8px base unit drives all padding and margin decisions. 
+- **Active Margins:** Use generous outer margins (48px+) on desktop to allow the high-contrast content to breathe, emphasizing a premium "club" atmosphere.
+- **Patterns:** Vertical and horizontal dividers should be 1px or 2px solid lines. In specific sections, use a "Triquetra Border"—a double-line border where the inner line is 1px and the outer is 3px—to echo the Celtic influence.
 
 ## Elevation & Depth
 
-This design system avoids heavy shadows in favor of **Tonal Layers and Low-Contrast Outlines**. 
+This system avoids heavy shadows, favoring **Tonal Layers** and **Bold Outlines** to maintain a clean, athletic look.
 
-Depth is primarily communicated through color shifts (Cloud White surfaces on Light Azure backgrounds). When elevation is necessary for interactive elements like modals or floating action buttons, a "Technical Glow" is used—a very soft, diffused shadow tinted with Azure (#6F86D6) at 10-15% opacity. This creates a high-tech, slightly luminous effect rather than a traditional heavy drop shadow. Physicality is suggested through subtle 1px borders in Azure or Light Azure.
+- **Stacking:** Use background color shifts to define hierarchy. Level 0 is White (#FFFFFF), Level 1 is Off-White (#F1F2F1). 
+- **Interactive Depth:** Instead of shadows, use "hard offsets" for hover states. For example, a button might gain a 2px solid black border and a slight interior inset to look "pressed."
+- **Glassmorphism:** Reserved exclusively for mobile navigation overlays or "Active" stat cards. Use a high-density blur (20px) with a subtle Black 5% tint to maintain legibility over photography.
+- **Celtic Dividers:** Use hair-line separators in Dark Celtic Green to divide list items, ensuring the "Linear" style is present in every interaction.
 
 ## Shapes
 
-The shape language is defined by "Precision Geometry." A consistent **8px (0.5rem)** radius is applied to all standard components (buttons, cards, input fields). 
+The shape language is **Soft-Geometric**. While the logo is circular, the UI elements utilize subtle rounding to balance the "sharpness" of the high-contrast colors.
 
-This specific radius strikes a balance between the friendliness of rounded corners and the professional "hard-edge" feel of engineering tools. Containers that house large imagery or map interfaces may use the `rounded-lg` (1rem) setting to create a softer frame for complex visual data. Icons should follow a linear, 2px stroke weight style with slightly rounded terminals to match the component geometry.
+- **Standard Elements:** Buttons and input fields use a `0.25rem` (Soft) radius to maintain a modern, professional look.
+- **The Medallion Influence:** Profile avatars, icons, and specific "Featured" badges should be rendered as perfect circles or within Triquetra-inspired frames.
+- **Containers:** Large cards and content blocks should use the `rounded-lg` (0.5rem) setting to feel approachable and friendly.
 
 ## Components
 
-### Buttons
-- **Primary Action:** Bright Yellow (#F5C000) background with Black text. These are the highest priority elements. 
-- **Secondary Action:** Ghost style with Azure (#6F86D6) borders and text.
-- **Header/Footer Buttons:** White outlines or solid Light Azure to pop against the Electric Blue background.
-
-### Cards
-- Cards use a Cloud White background with a 1px Azure border. 
-- On hover, cards should transition to a Light Azure background or gain the "Technical Glow" elevation.
-
-### Input Fields
-- Inputs feature a 1px Light Azure border that thickens and changes to Azure on focus. 
-- Labels sit above the field in `label-bold` typography using the Electric Blue color.
-
-### Status Indicators & Chips
-- Use specialized "Circuit Chips" for service status (e.g., "Active," "Scheduled"). These are small, pill-shaped elements with a Light Azure background and a small colored dot indicating status.
-
-### Additional Components
-- **Service Specs List:** A specialized list component for technical data, featuring monospaced-style digits and Azure dividers.
-- **Technician Profile Cards:** Small, focused cards highlighting professional certifications and ratings, utilizing the 8px roundedness.
+- **Buttons:** Primary buttons are solid Black with White text. Secondary buttons use a transparent background with a 2px solid Black or Dark Celtic Green border.
+- **Action Chips:** Use the Italian Tricolore colors for status (e.g., Green for "Active Session", Red for "Full/Closed"). Chips should be pill-shaped to contrast against the mostly rectangular UI.
+- **Celtic Dividers:** Incorporate a subtle "knot-work" pattern—a repeating linear geometric SVG—as a section break or as a footer ornament.
+- **Input Fields:** Minimalist design with a bottom-only 2px border that turns Italian Green (#009246) on focus.
+- **Cards:** White background, 1px border in Off-White (#F1F2F1), with a heavy 4px "accent bar" at the top in Celtic Green or the Tricolore to categorize content.
+- **Lynx Iconography:** Icons should be stylized, mono-line, and use consistent stroke weights (2px) to match the typography's visual weight.
